@@ -17,4 +17,38 @@ public abstract class Vehicle {
     protected int numWings = 0;
     protected int numSails = 0;
     private int numPassengers;
+
+    public Vehicle(float speed, String make, String type, int numPassengers) {
+        this.speed = speed;
+        this.make = make;
+        this.type = type;
+        this.numPassengers = numPassengers;
+    }
+
+    // Getters and setters for attributes
+
+    public float getSpeed() {
+        return speed;
+    }
+
+    public void setSpeed(float speed) {
+        this.speed = speed;
+    }
+
+    public float getDirection() {
+        return direction;
+    }
+
+    public void setDirection(float direction) {
+        this.direction = direction;
+    }
+
+    public String getMake() {
+        return make;
+    }
+
+    public String getType() {
+        return type;
+    }
 }
+

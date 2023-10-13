@@ -8,6 +8,10 @@ package oocminihw2;
  *
  * @author user
  */
-public class MotorCar {
+public class MotorCar extends Vehicle {
+    
+    public MotorCar(float speed, String make, String type, int numPassengers) {
+        super(speed, make, type, numPassengers);
+    }
     
 }

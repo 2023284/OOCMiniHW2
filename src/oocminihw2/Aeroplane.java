@@ -8,6 +8,10 @@ package oocminihw2;
  *
  * @author user
  */
-public class Aeroplane {
+public class Aeroplane extends Vehicle{
     
+     public Aeroplane(float speed, String make, String type, int numPassengers) {
+        super(speed, make, type, numPassengers);
+
+    }
 }
